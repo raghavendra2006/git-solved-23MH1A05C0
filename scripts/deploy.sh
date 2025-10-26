@@ -56,7 +56,7 @@ case "$DEPLOY_ENV" in
 
     # AI pre-deployment analysis
     if [ "$AI_OPTIMIZATION" = true ]; then
-        echo "🤖 Running AI pre-deployment analysis..."
+        echo " Running AI pre-deployment analysis..."
         python3 scripts/ai-analyzer.py --analyze-deployment
         echo "✓ AI analysis complete"
     fi
