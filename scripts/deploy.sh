@@ -112,7 +112,7 @@ case "$DEPLOY_ENV" in
     ;;
 
   *)
-    echo "❌ Error: Unknown environment '$DEPLOY_ENV'"
+    echo " Error: Unknown environment '$DEPLOY_ENV'"
     echo "Usage: DEPLOY_ENV={production|development|experimental} ./deploy.sh"
     exit 1
     ;;
