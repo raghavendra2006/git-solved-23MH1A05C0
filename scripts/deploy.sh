@@ -92,7 +92,7 @@ case "$DEPLOY_ENV" in
 
     # AI monitoring
     if [ "$AI_OPTIMIZATION" = true ]; then
-        echo "🤖 AI monitoring activated"
+        echo "AI monitoring activated"
         echo "- Anomaly detection: ACTIVE"
         echo "- Auto-rollback: ENABLED"
         echo "- Performance optimization: LEARNING"
@@ -100,7 +100,7 @@ case "$DEPLOY_ENV" in
 
     # Chaos engineering (optional)
     if [ "$CHAOS_TESTING" = true ]; then
-        echo "⚠️  Running chaos engineering tests..."
+        echo "  Running chaos engineering tests..."
         # Chaos monkey logic
     fi
 
